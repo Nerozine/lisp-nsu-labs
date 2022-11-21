@@ -1,4 +1,3 @@
-;; Учебное программирование - тема доклада
 (defun insert-first (l before to-insert &optional result)
     (cond ((null l) result)
           ((equal (car l) before) (append result (list to-insert) l))
